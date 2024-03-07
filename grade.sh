@@ -1,4 +1,4 @@
-CPATH='./libs/junit-4.13.2.jar:../libs/hamcrest-2.2.jar:.'
+CPATH='.:libs/junit-4.13.2.jar:libs/hamcrest-2.2.jar'
 
 rm -rf student-submission
 rm -rf grading-area
