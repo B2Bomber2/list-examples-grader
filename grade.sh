@@ -16,9 +16,13 @@ else
   exit 1
 fi
 
+cp ./student-submission/ListExamples.java grading-area/
+cp TestListExamples.java grading-area/
+cp $CPATH grading-area/
+
 cd grading-area
 
-javac *.java
+javac -cp $CPATH *.java
 
 java -cp TestListExamples $CPATH
 
