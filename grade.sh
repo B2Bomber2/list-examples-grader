@@ -24,7 +24,7 @@ cd grading-area
 
 javac -cp $CPATH *.java
 
-java -cp TestListExamples $CPATH
+java -cp $CPATH org.junit.runner.JUnitCore TestListExamples
 
 if [ $? -eq 0 ]
 then
