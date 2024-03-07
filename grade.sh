@@ -10,11 +10,12 @@ mkdir grading-area
 git clone $1 student-submission
 echo 'Finished cloning'
 
-if [ $? -eq 0 ]
+if [ -f  ./student-submission/ListExamples.java]
 then
   echo 'Clone successful'
 else 
   echo 'Clone unsuccessful'
+  exit 1
 fi
 
 cd grading-area
