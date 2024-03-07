@@ -8,6 +8,15 @@ mkdir grading-area
 git clone $1 student-submission
 echo 'Finished cloning'
 
+if [ -e ]
+
+fi
+
+cd grading-area
+
+javac *.java
+
+java -cp TestListExamples CPATH
 
 # Draw a picture/take notes on the directory structure that's set up after
 # getting to this point
