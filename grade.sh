@@ -18,7 +18,6 @@ fi
 
 cp ./student-submission/ListExamples.java grading-area/
 cp TestListExamples.java grading-area/
-cp $CPATH grading-area/
 
 cd grading-area
 
